@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    omniture_client (0.0.1)
+      httparty
+      json
+      logger
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    logger (1.2.8)
+    multi_xml (0.5.5)
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.6)
+  omniture_client!
+  rake

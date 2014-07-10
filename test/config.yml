@@ -1,0 +1,5 @@
+---
+omniture:
+    access_token: what-the-access-token
+    environment: :san_jose
+    report_suite_id: what-the-report-suite-id
