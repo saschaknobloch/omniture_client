@@ -124,7 +124,7 @@ module OmnitureClient
     def send_request(method, data = {})
       log(Logger::INFO, "Requesting #{method}...")
 
-      response = HTTParty.post(
+      response = HTTParty.get(
         @environment + "?method=#{method}",
         :query   => data,
         :headers => request_headers
